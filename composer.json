@@ -1,5 +1,5 @@
 {
-    "name": "k3dbe/psredis",
+    "name": "metricsocom/psredis",
     "type": "library",
     "description": "Sentinel client for the popular php redis client",
     "keywords": ["nosql", "redis", "predis", "sentinel"],
