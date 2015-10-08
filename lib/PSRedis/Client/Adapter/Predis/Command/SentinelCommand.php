@@ -14,8 +14,7 @@ use Predis\Command\AbstractCommand;
  * @package PSRedis\Client\Adapter\Predis\Command
  * @see http://redis.io/topics/sentinel Contains more information on the sentinel API.
  */
-class SentinelCommand
-    extends Command
+class SentinelCommand extends AbstractCommand
 {
     const GETMASTER = 'get-master-addr-by-name';
     const GETSLAVES = 'slaves';

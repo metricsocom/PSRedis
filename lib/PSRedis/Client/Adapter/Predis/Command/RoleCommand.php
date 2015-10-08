@@ -15,8 +15,7 @@ use Predis\Command\AbstractCommand;
  * @package PSRedis\Client\Adapter\Predis\Command
  * @link http://redis.io/commands/role
  */
-class RoleCommand
-    extends Command
+class RoleCommand extends AbstractCommand
 {
     public function getId()
     {
