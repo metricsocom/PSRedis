@@ -4,7 +4,7 @@
 namespace PSRedis\Client\Adapter\Predis\Command;
 
 
-use Predis\Command\Command;
+use Predis\Command\AbstractCommand;
 
 /**
  * Class RoleCommand
@@ -22,4 +22,4 @@ class RoleCommand
     {
         return 'ROLE';
     }
-} 
+}
